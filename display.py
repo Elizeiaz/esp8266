@@ -1,12 +1,14 @@
 from machine import I2C
 import ssd1306
 
+WIDTH = 128
+HEIGHT = 64
 
 class Display:
     """Display on I2C"""
 
-    def __init__(self, i2c: I2C):
-        self.display = ssd1306.SSD1306_I2C(128, 64, i2c)
+    def __init__(self, i2c: I2C, width=WIDTH, height=HEIGHT):
+        self.display = ssd1306.SSD1306_I2C(width, height, i2c)
 
     def show_text(self, text: str):
         pass

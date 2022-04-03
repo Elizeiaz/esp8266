@@ -1,6 +1,6 @@
 # esp8266
 ___
-###***Micropython***
+###Micropython
 
 WiFi, oled, rgb led, PWM tests
 ___

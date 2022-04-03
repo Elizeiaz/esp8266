@@ -3,7 +3,7 @@ import socket
 import platform
 import statistics
 
-HOST = '172.20.10.6'
+HOST = '192.168.0.138'
 PORT = 9090
 
 # psutil.sensors_battery().percent,
